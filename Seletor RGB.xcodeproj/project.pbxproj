@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64F241AF1FDC6153002082A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F241AE1FDC6153002082A6 /* AppDelegate.swift */; };
+		64F241B11FDC6154002082A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F241B01FDC6154002082A6 /* ViewController.swift */; };
+		64F241B41FDC6154002082A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F241B21FDC6154002082A6 /* Main.storyboard */; };
+		64F241B61FDC6154002082A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F241B51FDC6154002082A6 /* Assets.xcassets */; };
+		64F241B91FDC6154002082A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F241B71FDC6154002082A6 /* LaunchScreen.storyboard */; };
+		64F241C41FDC6154002082A6 /* Seletor_RGBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F241C31FDC6154002082A6 /* Seletor_RGBTests.swift */; };
+		64F241CF1FDC6154002082A6 /* Seletor_RGBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F241CE1FDC6154002082A6 /* Seletor_RGBUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64F241C01FDC6154002082A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64F241A31FDC6153002082A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64F241AA1FDC6153002082A6;
+			remoteInfo = "Seletor RGB";
+		};
+		64F241CB1FDC6154002082A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64F241A31FDC6153002082A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64F241AA1FDC6153002082A6;
+			remoteInfo = "Seletor RGB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64F241AB1FDC6153002082A6 /* Seletor RGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seletor RGB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F241AE1FDC6153002082A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64F241B01FDC6154002082A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64F241B31FDC6154002082A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64F241B51FDC6154002082A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F241B81FDC6154002082A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64F241BA1FDC6154002082A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F241BF1FDC6154002082A6 /* Seletor RGBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seletor RGBTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F241C31FDC6154002082A6 /* Seletor_RGBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seletor_RGBTests.swift; sourceTree = "<group>"; };
+		64F241C51FDC6154002082A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F241CA1FDC6154002082A6 /* Seletor RGBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seletor RGBUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F241CE1FDC6154002082A6 /* Seletor_RGBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seletor_RGBUITests.swift; sourceTree = "<group>"; };
+		64F241D01FDC6154002082A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64F241A81FDC6153002082A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F241BC1FDC6154002082A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F241C71FDC6154002082A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64F241A21FDC6153002082A6 = {
+			isa = PBXGroup;
+			children = (
+				64F241AD1FDC6153002082A6 /* Seletor RGB */,
+				64F241C21FDC6154002082A6 /* Seletor RGBTests */,
+				64F241CD1FDC6154002082A6 /* Seletor RGBUITests */,
+				64F241AC1FDC6153002082A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64F241AC1FDC6153002082A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64F241AB1FDC6153002082A6 /* Seletor RGB.app */,
+				64F241BF1FDC6154002082A6 /* Seletor RGBTests.xctest */,
+				64F241CA1FDC6154002082A6 /* Seletor RGBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64F241AD1FDC6153002082A6 /* Seletor RGB */ = {
+			isa = PBXGroup;
+			children = (
+				64F241AE1FDC6153002082A6 /* AppDelegate.swift */,
+				64F241B01FDC6154002082A6 /* ViewController.swift */,
+				64F241B21FDC6154002082A6 /* Main.storyboard */,
+				64F241B51FDC6154002082A6 /* Assets.xcassets */,
+				64F241B71FDC6154002082A6 /* LaunchScreen.storyboard */,
+				64F241BA1FDC6154002082A6 /* Info.plist */,
+			);
+			path = "Seletor RGB";
+			sourceTree = "<group>";
+		};
+		64F241C21FDC6154002082A6 /* Seletor RGBTests */ = {
+			isa = PBXGroup;
+			children = (
+				64F241C31FDC6154002082A6 /* Seletor_RGBTests.swift */,
+				64F241C51FDC6154002082A6 /* Info.plist */,
+			);
+			path = "Seletor RGBTests";
+			sourceTree = "<group>";
+		};
+		64F241CD1FDC6154002082A6 /* Seletor RGBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64F241CE1FDC6154002082A6 /* Seletor_RGBUITests.swift */,
+				64F241D01FDC6154002082A6 /* Info.plist */,
+			);
+			path = "Seletor RGBUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64F241AA1FDC6153002082A6 /* Seletor RGB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F241D31FDC6154002082A6 /* Build configuration list for PBXNativeTarget "Seletor RGB" */;
+			buildPhases = (
+				64F241A71FDC6153002082A6 /* Sources */,
+				64F241A81FDC6153002082A6 /* Frameworks */,
+				64F241A91FDC6153002082A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Seletor RGB";
+			productName = "Seletor RGB";
+			productReference = 64F241AB1FDC6153002082A6 /* Seletor RGB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64F241BE1FDC6154002082A6 /* Seletor RGBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F241D61FDC6154002082A6 /* Build configuration list for PBXNativeTarget "Seletor RGBTests" */;
+			buildPhases = (
+				64F241BB1FDC6154002082A6 /* Sources */,
+				64F241BC1FDC6154002082A6 /* Frameworks */,
+				64F241BD1FDC6154002082A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64F241C11FDC6154002082A6 /* PBXTargetDependency */,
+			);
+			name = "Seletor RGBTests";
+			productName = "Seletor RGBTests";
+			productReference = 64F241BF1FDC6154002082A6 /* Seletor RGBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64F241C91FDC6154002082A6 /* Seletor RGBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F241D91FDC6154002082A6 /* Build configuration list for PBXNativeTarget "Seletor RGBUITests" */;
+			buildPhases = (
+				64F241C61FDC6154002082A6 /* Sources */,
+				64F241C71FDC6154002082A6 /* Frameworks */,
+				64F241C81FDC6154002082A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64F241CC1FDC6154002082A6 /* PBXTargetDependency */,
+			);
+			name = "Seletor RGBUITests";
+			productName = "Seletor RGBUITests";
+			productReference = 64F241CA1FDC6154002082A6 /* Seletor RGBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64F241A31FDC6153002082A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Melisse Cabral";
+				TargetAttributes = {
+					64F241AA1FDC6153002082A6 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					64F241BE1FDC6154002082A6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 64F241AA1FDC6153002082A6;
+					};
+					64F241C91FDC6154002082A6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 64F241AA1FDC6153002082A6;
+					};
+				};
+			};
+			buildConfigurationList = 64F241A61FDC6153002082A6 /* Build configuration list for PBXProject "Seletor RGB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64F241A21FDC6153002082A6;
+			productRefGroup = 64F241AC1FDC6153002082A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64F241AA1FDC6153002082A6 /* Seletor RGB */,
+				64F241BE1FDC6154002082A6 /* Seletor RGBTests */,
+				64F241C91FDC6154002082A6 /* Seletor RGBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64F241A91FDC6153002082A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F241B91FDC6154002082A6 /* LaunchScreen.storyboard in Resources */,
+				64F241B61FDC6154002082A6 /* Assets.xcassets in Resources */,
+				64F241B41FDC6154002082A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F241BD1FDC6154002082A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F241C81FDC6154002082A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64F241A71FDC6153002082A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F241B11FDC6154002082A6 /* ViewController.swift in Sources */,
+				64F241AF1FDC6153002082A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F241BB1FDC6154002082A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F241C41FDC6154002082A6 /* Seletor_RGBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F241C61FDC6154002082A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F241CF1FDC6154002082A6 /* Seletor_RGBUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64F241C11FDC6154002082A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64F241AA1FDC6153002082A6 /* Seletor RGB */;
+			targetProxy = 64F241C01FDC6154002082A6 /* PBXContainerItemProxy */;
+		};
+		64F241CC1FDC6154002082A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64F241AA1FDC6153002082A6 /* Seletor RGB */;
+			targetProxy = 64F241CB1FDC6154002082A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64F241B21FDC6154002082A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F241B31FDC6154002082A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64F241B71FDC6154002082A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F241B81FDC6154002082A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64F241D11FDC6154002082A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F241D21FDC6154002082A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64F241D41FDC6154002082A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Seletor RGB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ufc.Seletor-RGB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64F241D51FDC6154002082A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Seletor RGB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ufc.Seletor-RGB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64F241D71FDC6154002082A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Seletor RGBTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ufc.Seletor-RGBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seletor RGB.app/Seletor RGB";
+			};
+			name = Debug;
+		};
+		64F241D81FDC6154002082A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Seletor RGBTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ufc.Seletor-RGBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seletor RGB.app/Seletor RGB";
+			};
+			name = Release;
+		};
+		64F241DA1FDC6154002082A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Seletor RGBUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ufc.Seletor-RGBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Seletor RGB";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		64F241DB1FDC6154002082A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Seletor RGBUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ufc.Seletor-RGBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Seletor RGB";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64F241A61FDC6153002082A6 /* Build configuration list for PBXProject "Seletor RGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F241D11FDC6154002082A6 /* Debug */,
+				64F241D21FDC6154002082A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F241D31FDC6154002082A6 /* Build configuration list for PBXNativeTarget "Seletor RGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F241D41FDC6154002082A6 /* Debug */,
+				64F241D51FDC6154002082A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64F241D61FDC6154002082A6 /* Build configuration list for PBXNativeTarget "Seletor RGBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F241D71FDC6154002082A6 /* Debug */,
+				64F241D81FDC6154002082A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64F241D91FDC6154002082A6 /* Build configuration list for PBXNativeTarget "Seletor RGBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F241DA1FDC6154002082A6 /* Debug */,
+				64F241DB1FDC6154002082A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64F241A31FDC6153002082A6 /* Project object */;
+}
